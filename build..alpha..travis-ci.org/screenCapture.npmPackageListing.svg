@@ -1,0 +1,15 @@
+<svg height="190" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="190" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 13:49:06 +0000    86690 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 13:49:06 +0000     1429 bytes  LICENSE.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 13:49:06 +0000     7162 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 13:49:06 +0000    52014 bytes  dist/topojson.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 13:49:06 +0000    20758 bytes  dist/topojson.min.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 13:49:06 +0000      516 bytes  dist/topojson.node.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 13:49:06 +0000      101 bytes  index.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 13:49:06 +0000     4022 bytes  package.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 13:49:06 +0000      138 bytes  rollup.config.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 13:49:06 +0000      550 bytes  rollup.node.js</tspan>
+</text>
+</svg>
