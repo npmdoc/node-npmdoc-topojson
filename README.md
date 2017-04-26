@@ -1,6 +1,6 @@
 # npmdoc-topojson
 
-#### api documentation for  [topojson (v3.0.0)](https://github.com/topojson/topojson)  [![npm package](https://img.shields.io/npm/v/npmdoc-topojson.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-topojson) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-topojson.svg)](https://travis-ci.org/npmdoc/node-npmdoc-topojson)
+#### basic api documentation for  [topojson (v3.0.0)](https://github.com/topojson/topojson)  [![npm package](https://img.shields.io/npm/v/npmdoc-topojson.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-topojson) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-topojson.svg)](https://travis-ci.org/npmdoc/node-npmdoc-topojson)
 
 #### An extension to GeoJSON that encodes topology.
 
