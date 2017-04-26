@@ -399,7 +399,23 @@
     arcs: topology.arcs
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    switch (input.type) {
+case &#x22;Polygon&#x22;: {
+  arcs = filterRings(input.arcs);
+  output = arcs ? {type: &#x22;Polygon&#x22;, arcs: arcs} : {type: null};
+  break;
+}
+case &#x22;MultiPolygon&#x22;: {
+  arcs = input.arcs.map(filterRings).<span class="apidocCodeKeywordSpan">filter</span>(filterIdentity);
+  output = arcs.length ? {type: &#x22;MultiPolygon&#x22;, arcs: arcs} : {type: null};
+  break;
+}
+case &#x22;GeometryCollection&#x22;: {
+  arcs = input.geometries.map(filterGeometry).filter(filterNotNull);
+  output = arcs.length ? {type: &#x22;GeometryCollection&#x22;, geometries: arcs} : {type: null};
+  break;
+...</pre></li>
     </ul>
 
 
